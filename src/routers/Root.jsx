@@ -7,11 +7,11 @@ const Root = () => (
 		<header>
 			<h1> Kalssons Husmanskost </h1>
 			<nav>
-				<NavLink to="/"> Start </NavLink>
-				<NavLink to="/OrderPage"> Vänlista </NavLink>
-				<NavLink to="/ConfirmPage"> Ny vän </NavLink>
-                <NavLink to="/LoginPage"> Logga in </NavLink>
-                <NavLink to="/EditPage"> Redigera vän </NavLink>
+				<NavLink to="/"> LandingPage </NavLink>
+				<NavLink to="/OrderPage"> Orderpage </NavLink>
+				<NavLink to="/ConfirmPage"> ConfirmPage </NavLink>
+                <NavLink to="/LoginPage"> Log in </NavLink>
+                <NavLink to="/EditPage"> EditPage </NavLink>
 			</nav>
 		</header>
 
