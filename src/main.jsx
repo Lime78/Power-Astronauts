@@ -4,7 +4,6 @@ import './index.css'
 
 import { RouterProvider } from 'react-router-dom'
 import { router } from './routes/router.jsx'
-import { LandingPage } from './routes/LandingPage.jsx'
 
 
 
