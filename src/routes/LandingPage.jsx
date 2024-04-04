@@ -1,22 +1,23 @@
 import menuItems from "../data/menuItems";
-
+import LandingPageCard from "../components/LandingPageCard";
 
 const LandingPage = () => {
+  // const LandingPageCard = (props) => (
+  //   <div>
+  //       <h2>{props.item.name}</h2>
+  //       <p>{props.item.description}</p>
+  //       <p>Pris: {props.item.price} kr</p>
+  //   </div>
+  //   )
     return (
         <>
-        <div>
+        <div className="header">
+        </div>
         <h1>Landing Page</h1>
-                <menuItems />
-        </div>
         
-        <div>
-      {menuItems.map((item, index) => (
-        <div key={index}>
-          <h2>{item.name}</h2>
-          <p>{item.description}</p>
-          <p>Pris: {item.price} kr</p>
-          <img src={item.image} alt={item.name} />
-        </div>
+        <div className="menu-frame">
+      {menuItems.map((item, i) => (
+        <LandingPageCard item={item} key={item.name} />
       ))}
     </div>
         </>

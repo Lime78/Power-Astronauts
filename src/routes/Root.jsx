@@ -1,4 +1,5 @@
 import { Link, NavLink, Outlet } from "react-router-dom"
+import './root.css'
 
 // Router motsvarar App-komponenten
 // Består av en statisk del (visas alltid) och en dynamisk (Outlet ersätts av andra komponenter)

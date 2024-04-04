@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+.menu-frame{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.landing-card{
+    background-color: rgb(120, 49, 23);
+    padding: 2em;
+    width: 30vw;
+    margin-top: 3em;
+    margin-left: 1em;
+    border-radius: 5em;
+}
+
+.landing-card > h2{
+    color: white;
+}
+
+.landing-card > p{
+    color: white;
+}
+
+img{
+    max-width: 300px;
+}
